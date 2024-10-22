@@ -3,7 +3,7 @@ def custom_write(file_name, strings):
     number = 0
     key = ''
     bite = 0
-    file = open(file_name, 'a', encoding="utf-8")
+    file = open(file_name, 'w', encoding="utf-8")
     for i in strings:
         number += 1
         bite = file.tell()
